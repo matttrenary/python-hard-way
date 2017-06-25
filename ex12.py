@@ -12,3 +12,5 @@ print ("So, you're {} old, {} tall, and {} heavy.".format(
 # But it uses 3.6 and I'm not able to get that
 # So will try to do some 3.5 things to make it work
 # Like the .format above
+# If 3.6....
+# print (f"So, you're {age} old, {height} tall, and {weight} heavy.")
