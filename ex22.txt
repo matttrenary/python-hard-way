@@ -1,0 +1,28 @@
+print
+%r vs %s for old string formatting
+end=' ' for print function
+Can multiply strings 'a' * 10
+Print across multiple lines within parens
+Can print multi lines with \n
+Or you can use tripquotes
+Or escape chars
+\n newline
+\r return to start of line
+\f new page/section
+\v vert tab
+\t tab
+Get user input with input()
+Can determine prompt by passing arg to input()
+Newer string formatting with {} and .format
+Python 3.6 uses f strings (f before quote)
+from sys import argv
+script, first, second, third = argv
+open(filename) and f.read() and f.close()
+opening a file with 'w' truncates it. Or .truncate()
+from os.path import exists to check if file exists - exists(filename)
+Can do len() on a string right? So can do len on a full file read
+.write to write in a file. If on same line as open, no need to close
+def func(*args): as a way to unpack just like argv
+f.seek(0) to return head to start
+f.readline() to read a line at the head and advance the head
+return from func doesn't need parens
